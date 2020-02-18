@@ -1,29 +1,51 @@
-# Create React Express App
+# rguthrieGoogleBooks
+Search and Save from Google Books with this simple full-stack app, now on heroku.
 
-## About This Boilerplate
+This a MERN app; the server is Express/Node JS using MongoDB, and the client is a React app which uses the Google API
+for book information and to the server for DB CRUD operations.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+The package was initialized from a MERN template stored on GitHub.  This template was built by the react package's 
+create-react-app script for the npm CLI.  
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+The app is deployed on GitHub pages at:
 
-## Starting the app locally
+https://rguthrie000.github.io/rguthrieGoogleBooks/
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+The repository on GitHub is:  rguthrie000/rguthrieGoogleBooks
 
-```
-npm install
-```
+The app is deployed in production configuration on heroku:
 
-This should install node modules within the server and the client folder.
+https://evening-sierra-31664.herokuapp.com/
 
-After both installations complete, run the following command in your terminal:
+# Design Notes
 
-```
-npm start
-```
+File App.js is the state and HTML body file. Custom React components for the Search Form (SearchForm) and the 
+lists of books (BookCard) are used within the HTML body in App.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+Data flows down to the components using the 'conventional' props process.  
 
-## Deployment (Heroku)
+App.js uses The create-react-app script supplied with the react package was used to create the startup and initial HTML file.
+A bootstrap.com link was added to the index.HTML file, and the utils/API file was created,
+but otherwise only the files in /src are application-specific.
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## This application was developed with:
+VS Code - Smart Editor for HTML/CSS/JS
+node.js - JavaScript command-line interpreter
+Google Chrome Inspector - inspection/analysis tools integrated in Chrome Browser.
+react - middleware for optimized DOM manipulation and integrated JSX coding.
+github - version control, content repository.
+heroku - web deployment, including database hosting.
+
+## Versioning
+
+GitHub is used for version control; the github repository is 
+rguthrie000/rguthrieUserDirectory.
+
+## Author
+rguthrie000 (Richard Guthrie)
+
+## Acknowledgments
+rguthrie000 is grateful to the UCF Coding Bootcamp - we rock!
+
+
+
