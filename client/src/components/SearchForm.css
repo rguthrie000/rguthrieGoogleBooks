@@ -1,0 +1,15 @@
+.form-input {
+  margin: 0px 0px 0px 350px;
+  text-align: center;
+}
+
+.button-search {
+    margin: 10px 0 0 350px;
+    width: 50px;
+}
+
+.button-search:hover {
+    margin: 10px 0 0 245px;
+    width: 10px;
+}
+
